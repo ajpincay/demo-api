@@ -18,7 +18,10 @@ namespace demo_api.Controllers
 
         [HttpGet]
         public WeatherForecast Get()
-        {           
+        {
+
+            string x = "o";
+
             return new WeatherForecast
             {
                 //Date = DateTime.Today,
